@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="game.css">
+  </head>
+
+  <body>
+    <div id="logo"><img src="Slike\newHepNocLogo1.png" alt="logo"></div>
+    <div id="question"></div>
+    <hr>
+    <ul id="choices"></ul>
+    <button id="sljedece" onclick="checkAnswer()">Sljedeće</button>
+    <p id="result"></p>
+    <button id="reviewBtn" style="display: none;" onclick="startReview()">Review</button>
+    <button id="exit" style="display: none;" onclick="window.location.href='YOUR_URL_HERE'">Exit</button>
+
+    <div id="review" style="display: none;">
+      <h2>Review</h2>
+      <ul id="review-list"></ul>
+      <button id="previous" onclick="prevQuestion()">Previous</button>
+      <button id="next" onclick="nextQuestion()">Next</button>
+    </div>
+    
+
+    <script src="game.js"></script>
+  </body>
+</html>

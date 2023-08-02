@@ -1,0 +1,151 @@
+body{
+    border-color:#000000;
+    border-radius: 44px;
+    width: 300px;
+    height: 60px;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#logo img{
+  width: 130px;
+  background-color: #5d8be2;
+
+}
+
+#logo{
+  margin-top: 10px;
+  background-color: #4171cc;
+  text-align: center;
+}
+  
+#question{
+  margin-left: 20px;
+  margin-bottom: 5px;
+  font-size: 100%;
+  font-weight: 800;
+}
+
+hr{
+  width: 400px;
+  margin-left: 20px;
+  border-color: black;
+  margin-bottom:15px;
+}
+
+#choices {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 40px;
+
+}
+  
+#choices li {
+  list-style: none;
+  margin: 10px 0;
+  border-radius: 10px;
+  justify-content: left;
+  padding: 10px; 
+  background-color: #ffbaba; 
+}
+
+
+#result {
+  text-align: center;
+  color: #007bff; 
+}
+
+#review {
+  text-align: center;
+}
+
+#review-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+#review-list li {
+  margin: 5px 0;
+}
+
+
+
+/* BUTTONS
+ */
+ #reviewBtn {
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+  background-color: hsl(211, 97%, 58%);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#exit {
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+  background-color: hsl(211, 97%, 58%);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#sljedece {
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+  background-color: hsl(211, 97%, 58%);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#previous{
+  position: relative;
+  display: block;
+  border-radius: 10px;
+  background-color: hsl(211, 97%, 58%);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 10px auto;
+  translate: -45px;
+}
+
+#next{
+  margin: 10px auto;
+  translate: 45px -46px;
+  display: block;
+  border-radius: 10px;
+  background-color: hsl(211, 97%, 58%);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#sljedece:hover {
+  background-color: #0056b3;
+}
+#reviewBtn:hover {
+  background-color: #0056b3;
+}
+#next:hover {
+  background-color: #0056b3;
+} 
+#previous:hover {
+  background-color: #0056b3;
+}
+
+
